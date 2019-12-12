@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+h1, p, li {
+  font-family: Lato;
+}
+
+h1, p {
+  color: #446da4;
+}
+
+ul {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  padding-right: 10px;
+}
+
+li {
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+input {
+  border: solid 1px #446da4;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  width: 160px;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: none;
+  width: 200px;
+  border: solid 1px #a6c8f5;
+}
+
